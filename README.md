@@ -15,7 +15,7 @@
 
 ## Code snippets
 
-*  [SQL](CodeSnippets\SQL\README.md)
+*  [SQL](CodeSnippets/SQL/README.md)
 
 ## Useful data sources and API
 
