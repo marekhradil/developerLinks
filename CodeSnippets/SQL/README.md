@@ -1,7 +1,12 @@
 # SQL snippets
 
-*  [Fragmentace indexů](index-fragmentation.md) 
-*  [sp_generate_inserts](https://github.com/lambacck/generate_inserts) - stored procedure for generating insert script, useful for simple data transfers, external link
+* [Fragmentace indexů](index-fragmentation.md) 
+
+* [sp_generate_inserts](https://github.com/lambacck/generate_inserts) - stored procedure for generating insert script, useful for simple data transfers, external link
+
+* [Table sizes](table-sizes.sql) - list all tables ordered from biggest to smallest one
+
+  
 
 ### Lists  all tables containing the given column
 
@@ -13,6 +18,8 @@ select so.name as tablename, sc.name as columnname
   join syscolumns sc on so.id=sc.id
   where sc.name = @column
 ```
+
+
 
 ### Enable/disable identity inserts on a table
 
