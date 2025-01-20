@@ -14,3 +14,12 @@ select so.name as tablename, sc.name as columnname
   where sc.name = @column
 ```
 
+### Enable/disable identity inserts on a table
+
+```sql
+SET IDENTITY_INSERT <TABLE_NAME> ON
+
+-- <... do some inserts ...>
+
+SET IDENTITY_INSERT <TABLE_NAME> OFF
+```
