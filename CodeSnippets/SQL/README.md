@@ -6,6 +6,8 @@
 
 * [Table sizes](table-sizes.sql) - list all tables ordered from biggest to smallest one
 
+* [All tables depent on the table](all-tables-depent-on-the-table.sql) - with key names
+
   
 
 ### Lists  all tables containing the given column
