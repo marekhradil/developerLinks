@@ -4,6 +4,8 @@
 
 * [sp_generate_inserts](https://github.com/lambacck/generate_inserts) - stored procedure for generating insert script, useful for simple data transfers, external link
 
+* [sp_generate_class](sp_generate_class.sql) - stored procedure for generating C# class from a table
+
 * [Table sizes](table-sizes.sql) - list all tables ordered from biggest to smallest one
 
 * [All tables depent on the table](all-tables-depent-on-the-table.sql) - with key names
