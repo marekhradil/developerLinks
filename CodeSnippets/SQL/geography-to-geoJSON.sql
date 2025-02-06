@@ -1,3 +1,7 @@
+IF  EXISTS (SELECT * FROM sysobjects WHERE id = OBJECT_ID(N'dbo.Geo_to_json'))
+    DROP FUNCTION dbo.Geo_to_json
+go
+
 CREATE FUNCTION dbo.Geo_to_json(@geo GEOGRAPHY)
 returns NVARCHAR(max)
 AS
@@ -41,3 +45,6 @@ END ) + '}')
 END
 
 go 
+
+grant exec on dbo.Geo_to_json to public
+go
